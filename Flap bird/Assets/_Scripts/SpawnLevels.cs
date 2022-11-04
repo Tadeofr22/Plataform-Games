@@ -9,7 +9,7 @@ public class SpawnLevels : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("CreateLevels", 10f, 13f);    
+        InvokeRepeating("CreateLevels", 15f, 13f);    
     }
 
     // Update is called once per frame
