@@ -14,7 +14,7 @@ public class JohnMov : MonoBehaviour
     private float Horizontal;
     private bool Grounded;
     private float LastShoot;
-    private int Health = 5;
+    private int Health = 3;
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
